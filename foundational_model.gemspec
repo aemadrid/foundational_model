@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Foundational::Model::VERSION
   gem.authors       = ['Adrian Madrid']
   gem.email         = %w(aemadrid@gmail.com)
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Foundational Model allows you to persist models into FoundationDB.}
+  gem.summary       = %q{Foundational Model allows you to persist models into FoundationDB.}
+  gem.homepage      = 'https://github.com/aemadrid/foundational_model'
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
